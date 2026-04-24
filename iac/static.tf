@@ -2,8 +2,8 @@ resource "azurerm_static_site" "static_web_app" {
   name                = "stapp-tarea3-frontend"
   resource_group_name = azurerm_resource_group.rg.name
   location            = "East US 2" # Location compatible con Static Web Apps
-  sku_tier            = "Free"
-  sku_size            = "Free"
+  sku_tier            = "Standard"
+  sku_size            = "Standard"
 }
 
 # Variable de salida para ver fácilmente el token y la URL. Útil para poder configurar Github Actions
