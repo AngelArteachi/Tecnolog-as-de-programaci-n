@@ -14,5 +14,5 @@ provider "azurerm" {
 resource "azurerm_resource_group" "rg" {
   # El prefijo rg (Resource Group) seguido de tu identificador.
   name     = "rg-tarea3-seguridad"
-  location = "East US"
+  location = "eastasia"
 }

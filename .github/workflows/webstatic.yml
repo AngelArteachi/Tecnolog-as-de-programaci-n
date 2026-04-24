@@ -26,5 +26,5 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} 
           action: "upload"
-          app_location: "/app/src/public" # Apuntar solo al front html
+          app_location: "app/src/public"
           output_location: "" 
